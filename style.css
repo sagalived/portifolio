@@ -195,3 +195,19 @@ footer {
     color: #38bdf8;
     text-decoration: none;
 }
+
+.btn-cv {
+    background: #38bdf8;
+    color: #020617;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-cv:hover {
+    background: #0ea5e9;
+    transform: scale(1.05);
+}
+
+
