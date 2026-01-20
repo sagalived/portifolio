@@ -150,6 +150,17 @@ footer {
     }
 }
 
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.8s;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -209,5 +220,6 @@ footer {
     background: #0ea5e9;
     transform: scale(1.05);
 }
+
 
 
